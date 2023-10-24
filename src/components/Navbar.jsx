@@ -32,7 +32,7 @@ const Navbar = () => {
             <ul className='flex gap-8 object-left lg:flex-row flex-col lg:items-center'>
                 <li className='hover:text-primary hover:cursor-pointer '><a href="#start">Inicio</a></li>
                 <li className='hover:text-primary hover:cursor-pointer'><a href="#me">Quem sou</a></li>
-                <li className='hover:text-primary hover:cursor-pointer'>Projetos</li>
+                <li className='hover:text-primary hover:cursor-pointer'><a href="#projects">Projetos</a></li>
                 <li className='hover:text-primary hover:cursor-pointer'>Habilidades</li>                
                 
             </ul>
