@@ -87,8 +87,10 @@ const Home = () => {
 
         </div>
 
-
+        
         <Footer />
+        
+
         <BackToTopButton />
     </div>
   )
