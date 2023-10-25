@@ -8,7 +8,7 @@ import { BsGithub, BsWindowFullscreen } from 'react-icons/bs'
 
 const ProjectLeft = (props) => {
   return (
-    <div className="w-full py-20 flex gap-20">
+    <div className="w-full flex gap-20">
         <img src={props.image} alt="image of the project" className="w-1/2 border-2 hover:scale-125" />
         <div className="flex flex-col gap-8">
             <h1 className='text-4xl font-extrabold'>{props.name}</h1>

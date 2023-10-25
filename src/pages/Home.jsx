@@ -10,11 +10,12 @@ import { BsGithub, BsLinkedin, BsWhatsapp } from 'react-icons/bs'
 const Home = () => {
   return (
     <div className=''>
-        <div id='start' className='flex flex-col px-40 pt-20 pb-36 gap-4'>
-            <h1 className='text-4xl font-extrabold'>Olá,</h1>
+      <img src="/bg.jpg" alt="" className='-z-10 h-screen w-full top-0 opacity-40 absolute'/>
+        <div id='start' className='flex flex-col px-40 pt-20 pb-36 gap-4 '>
+            <h1 className='text-4xl font-extrabold '>Olá,</h1>
             <h1 className='text-4xl font-extrabold'>Eu sou o <span className='text-primary'>Rafael,</span></h1>
             <h1 className='text-4xl font-extrabold'>Desenvolvedor Front End</h1>
-            <p className='text-xl text-muted-foreground'>Atualmente morando em Guarulhos, eu amo <span className='text-primary'>desenvolver</span> experiencias digitais incriveis!</p>
+            <p className='text-xl text-muted-foreground'>Atualmente morando em Guarulhos, eu amo<br/> <span className='text-primary'>desenvolver</span> experiencias digitais incriveis!</p>
             <div className='flex gap-6 py-4'>
                 <a  href="https://github.com/RafaelKunzler" target='_blank' rel="noreferrer"><BsGithub className='w-8 h-8 hover:text-primary'/></a>
                 <a href="https://www.linkedin.com/in/rafael-rodrigues-do-patroc%C3%ADnio-nunes-3984921a2/" target='_blank' rel="noreferrer"><BsLinkedin className='w-8 h-8 hover:text-primary'/></a>
@@ -25,7 +26,9 @@ const Home = () => {
         
         <Me />
 
-        <div id="projects" className='px-40'>
+        <div id="projects" className='flex flex-col gap-20 px-40 pt-32'>
+
+          <h1 className='text-3xl text-center pb-12'>PROJETOS</h1>
 
         <ProjectRight
             image= "/projects/fake-store.png"
@@ -62,6 +65,20 @@ const Home = () => {
 
             ]}
           /> 
+
+          <Separator className="px-40"/>
+
+          <ProjectRight
+            image = "/projects/rock-paper-scissors.png"
+            name = "Rock Paper Scissors"
+            description = "Jogo de pedra papel e tesoura, feito inteiramente com Javascript Vanilla"
+            github = "https://github.com/RafaelKunzler/TheOdinProject/tree/main/3.Rock%20Paper%20Scissors"
+            url = "https://celebrated-ganache-7495ed.netlify.app"
+            badge = {[
+              "Javascript",
+              "CSS"
+            ]}
+          />
 
 
 

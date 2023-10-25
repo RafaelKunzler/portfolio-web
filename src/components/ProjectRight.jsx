@@ -6,7 +6,7 @@ import { BsGithub, BsWindowFullscreen } from 'react-icons/bs'
 
 const ProjectRight = (props) => {
   return (
-    <div className="w-full py-20 flex border-b-2 gap-20">
+    <div className="w-full flex gap-20">
         
         <div className="flex flex-col gap-8">
             <h1 className='text-4xl font-extrabold'>{props.name}</h1>
