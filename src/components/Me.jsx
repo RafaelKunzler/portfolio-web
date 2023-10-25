@@ -2,7 +2,7 @@ import { Card, CardContent } from '@/components/ui/card'
 
 const Me = () => {
   return (
-    <div id='me' className='px-40 py-20 w-full'>
+    <div id='me' className='w-full'>
             <Card className='p-8 shadow-2xl'>
                 <CardContent className='flex flex-wrap lg:flex-nowrap gap-16 '>
                     <div className='w-1/2'>
