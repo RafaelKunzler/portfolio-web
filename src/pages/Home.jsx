@@ -11,12 +11,12 @@ import { BsGithub, BsLinkedin, BsWhatsapp } from 'react-icons/bs'
 
 const Home = () => {
   return (
-    <div className='px-40 '>
+    <div className='lg:px-40 px-8'>
 
       <Navbar />
 
       <div className='flex content-center justify-center w-full h-screen pb-12 gap-6 pt-12'>
-        <div id='start' className='flex flex-col gap-4 '>
+        <div id='start' className='flex flex-col gap-4 text-center lg:text-left'>
             <h1 className='text-5xl font-bold font-serif'>Olá,</h1>
             <h1 className='text-5xl font-bold font-serif'>Eu sou o <span className='text-primary'>Rafael,</span></h1>
             <h1 className='text-4xl font-bold font-serif'>Desenvolvedor Front End</h1>
@@ -27,7 +27,7 @@ const Home = () => {
                 <a href="https://wa.me/11916473434" target='_blank' rel='noreferrer'><BsWhatsapp className='w-8 h-8 hover:text-primary'/></a>
             </div>
         </div>
-        <img src="/office.svg" alt="" className='w-1/2 h-3/4'/>
+        <img src="/office.svg" alt="" className='w-1/2 h-3/4 hidden lg:block'/>
       </div>      
         
       <Me />

@@ -3,13 +3,13 @@ import { Card, CardContent } from '@/components/ui/card'
 const Me = () => {
   return (
     <div id='me' className='w-full'>
-            <Card className='p-8 shadow-2xl'>
+            <Card className='lg:p-8 shadow-2xl'>
                 <CardContent className='flex flex-wrap lg:flex-nowrap gap-16 '>
-                    <div className='w-1/2'>
-                        <img src="/me.png" alt="photo of me" className='h-screen' />
+                    <div className='w-full lg:w-1/2 '>
+                        <img src="/me.png" alt="photo of me" className='h-auto lg:h-screen w-full' />
 
                     </div>
-                    <div className='flex flex-col w-1/2 gap-6 justify-center'>
+                    <div className='flex flex-col lg:w-1/2 gap-6 justify-center text-center lg:text-left'>
                         <h3 className='text-primary text-2xl font-semibold font-serif'>Quem Sou Eu</h3>
                         <h1 className='text-4xl font-semibold font-serif'>Rafael Rodrigues</h1>
                         <h3 className='text-2xl font-semibold font-serif'>Desenvolvedor Front End</h3>

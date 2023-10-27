@@ -8,10 +8,11 @@ import { BsGithub, BsWindowFullscreen } from 'react-icons/bs'
 
 const ProjectLeft = (props) => {
   return (
-    <div className="w-full flex gap-20">
-        <img src={props.image} alt="image of the project" className="w-1/2 border-2 hover:scale-125" />
-        <div className="flex flex-col gap-8">
+    <div className="w-full flex gap-20 flex-wrap lg:flex-nowrap">
+        <img src={props.image} alt="image of the project" className="w-1/2 border-2 hover:scale-125 hidden lg:block" />
+        <div className="flex flex-col gap-8 text-center lg:text-left">
             <h1 className='text-4xl font-extrabold font-serif'>{props.name}</h1>
+            <img src={props.image} alt="image of the project" className="w-full border-2 hover:scale-125 block lg:hidden" />
             <p className='text-muted-foreground'>{props.description}</p>
             <div className="flex gap-6">
                 <a href={props.github} target='_blank' rel="noreferrer"><BsGithub className='w-6 h-6 hover:text-primary' /></a>
@@ -24,6 +25,7 @@ const ProjectLeft = (props) => {
 
             </ul>
         </div>
+        
         
     </div>
   )
