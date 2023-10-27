@@ -11,7 +11,7 @@ const ProjectLeft = (props) => {
     <div className="w-full flex gap-20">
         <img src={props.image} alt="image of the project" className="w-1/2 border-2 hover:scale-125" />
         <div className="flex flex-col gap-8">
-            <h1 className='text-4xl font-extrabold'>{props.name}</h1>
+            <h1 className='text-4xl font-extrabold font-serif'>{props.name}</h1>
             <p className='text-muted-foreground'>{props.description}</p>
             <div className="flex gap-6">
                 <a href={props.github} target='_blank' rel="noreferrer"><BsGithub className='w-6 h-6 hover:text-primary' /></a>

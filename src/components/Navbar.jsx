@@ -18,7 +18,7 @@ const Navbar = () => {
     
    <div className='py-10 w-full font-bold lg:flex items-center justify-between lg:px-0'>
         <div className='flex items-center justify-between'>            
-            <div className='flex content-center items-center gap-3 font-semibold text-3xl'> 
+            <div className='flex content-center items-center gap-3 font-semibold text-3xl '> 
                     <span className=''>RAFAEL</span>
                     <h3 className='text-primary'>RODRIGUES</h3>
             </div>       
