@@ -24,7 +24,7 @@ const Home = () => {
             <div className='flex gap-6 py-4'>
                 <a  href="https://github.com/RafaelKunzler" target='_blank' rel="noreferrer"><BsGithub className='w-8 h-8 hover:text-primary'/></a>
                 <a href="https://www.linkedin.com/in/rafael-rodrigues-do-patroc%C3%ADnio-nunes-3984921a2/" target='_blank' rel="noreferrer"><BsLinkedin className='w-8 h-8 hover:text-primary'/></a>
-                <a href="https://wa.me/11916473434" target='_blank' rel='noreferrer'><BsWhatsapp className='w-8 h-8 hover:text-primary'/></a>
+                <a href="https://wa.me/5511916473434" target='_blank' rel='noreferrer'><BsWhatsapp className='w-8 h-8 hover:text-primary'/></a>
             </div>
         </div>
         <img src="/office.svg" alt="" className='w-1/2 h-3/4 hidden lg:block'/>
