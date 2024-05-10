@@ -74,6 +74,40 @@ const Home = () => {
         <Separator className="px-40"/>
 
         <ProjectRight
+          image= "/projects/pokenext.png"
+          name = "PokeNext"
+          description = "Aquele projeto que todo desenvolvedor já fez, e que na teoria não agrega em nada no portifólio. Porem fiz esse projeto para estudar e entender os fundamentos do NextJS e deploy na Vercel."
+          github = "https://github.com/RafaelKunzler/PokeNext"
+          url = "https://pokenext-pearl-sigma.vercel.app/"
+          badge = {[
+            "React",
+            "NextJS",
+            "Vercel",            
+            "API's"
+          ]}
+        />
+
+        <Separator className="px-40"/>
+
+        <ProjectLeft
+          image = "/projects/weatherApp.png"
+          name = "WeatherApp"
+          description = "Projeto para o curso The Odin Project, consumindo uma API com base no input do usuário e a atualizando em tempo real"
+          github = "https://github.com/RafaelKunzler/weather-app"
+          url = "https://weather-app-kappa-opal-92.vercel.app/"
+          badge = {[
+            "React",
+            "Vite",
+            "Tailwind",
+            "ShadCN",
+            "API",
+
+          ]}
+        /> 
+
+        <Separator className="px-40"/>
+
+        <ProjectRight
           image = "/projects/rock-paper-scissors.png"
           name = "Rock Paper Scissors"
           description = "Meu primeiro projeto, um jogo de pedra papel e tesoura, feito inteiramente com Javascript Vanilla"
