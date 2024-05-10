@@ -20,11 +20,11 @@ const Home = () => {
             <h1 className='text-5xl font-bold font-serif'>Olá,</h1>
             <h1 className='text-5xl font-bold font-serif'>Eu sou o <span className='text-primary'>Rafael,</span></h1>
             <h1 className='text-4xl font-bold font-serif'>Desenvolvedor Front End</h1>
-            <p className='text-xl text-muted-foreground'>Atualmente morando em Guarulhos, eu amo <span className='text-primary'>desenvolver</span> experiencias digitais incriveis!</p>
+            <p className='text-xl text-muted-foreground'>Atualmente morando em São Paulo, eu amo <span className='text-primary'>desenvolver</span> experiencias digitais incriveis!</p>
             <div className='flex gap-6 py-4'>
                 <a  href="https://github.com/RafaelKunzler" target='_blank' rel="noreferrer"><BsGithub className='w-8 h-8 hover:text-primary'/></a>
                 <a href="https://www.linkedin.com/in/rafael-rodrigues-do-patroc%C3%ADnio-nunes-3984921a2/" target='_blank' rel="noreferrer"><BsLinkedin className='w-8 h-8 hover:text-primary'/></a>
-                <a href="https://wa.me/5511916473434" target='_blank' rel='noreferrer'><BsWhatsapp className='w-8 h-8 hover:text-primary'/></a>
+                <a href="https://wa.me/5511965662378" target='_blank' rel='noreferrer'><BsWhatsapp className='w-8 h-8 hover:text-primary'/></a>
             </div>
         </div>
         <img src="/office.svg" alt="" className='w-1/2 h-3/4 hidden lg:block'/>
