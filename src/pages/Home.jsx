@@ -36,6 +36,24 @@ const Home = () => {
 
         <h1 className='text-3xl text-center pb-12 font-serif'>PROJETOS</h1>
 
+        <ProjectLeft
+          image = "/projects/anime-vault.png"
+          name = "Anime Vault"
+          description = " Desenvolvimento de plataforma web com Next.js para explorar animes via API, destacando Infinite Scroll e Server Components para melhorar desempenho e experiência do usuário."
+          github = "https://github.com/RafaelKunzler/anime_vault"
+          url = "https://anime-vault-mu-seven.vercel.app"
+          badge = {[
+            "React",
+            "Next.js",
+            "Tailwind",
+            "Typescript",
+            "Infinite Scroll",
+            "Server Components",
+          ]}
+        /> 
+
+        <Separator className="px-40"/>
+
         <ProjectRight
           image= "/projects/fake-store.png"
           name = "Fake Store"
@@ -81,7 +99,7 @@ const Home = () => {
           url = "https://pokenext-pearl-sigma.vercel.app/"
           badge = {[
             "React",
-            "NextJS",
+            "Next.js",
             "Vercel",            
             "API's"
           ]}
