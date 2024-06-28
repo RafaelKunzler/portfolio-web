@@ -36,6 +36,24 @@ const Home = () => {
 
         <h1 className='text-3xl text-center pb-12 font-serif'>PROJETOS</h1>
 
+        <ProjectRight
+          image= "/projects/fit-flavors.png"
+          name = "Fit Flavors"
+          description = "Plataforma de compartilhamento de receitas utilizando Next.js, Tailwind CSS e MongoDB. O projeto inclui funcionalidades de busca e filtros para receitas veganas e vegetariana."
+          github = "https://github.com/RafaelKunzler/Fit-Flavors"
+          url = "https://fit-flavors.vercel.app"
+          badge = {[
+            "React",
+            "NextJs",
+            "Tailwind",
+            "ShadCN",
+            "MongoDB",
+            "NextAuth",
+            "Vercel",
+            "Zod"
+          ]}
+        />
+
         <ProjectLeft
           image = "/projects/anime-vault.png"
           name = "Anime Vault"
